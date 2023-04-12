@@ -6,9 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="counter_icon_137721.ico" type="image/x-icon">
 </head>
 
 <body>
+  <div class="main-container">
+
+    <div class="counter-box">
+      <div class="counter-container" value="0">
+
+        <input class="counter" value="0" disabled>
+      </div>
+
+      <div class="buttons">
+        <input type="button" value="Increment" class="button increment-botton">
+        <input type="button" value="Decrement" class="button decrement-botton">
+        <input type="button" value="Reset" class="button reset-botton">
+      </div>
+
+    </div>
+
+    <span class="feedback"></span>
+
+  </div>
+
+  <script src="counter.js"></script>
 
 </body>
 
