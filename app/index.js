@@ -1,7 +1,7 @@
 let counterNumber = 0;
 const feedback = document.querySelector(".feedback");
 
-let incrementCounter = () => {
+const incrementCounter = () => {
   if (counterNumber < 20) {
     counterNumber++;
   } else {
@@ -60,6 +60,7 @@ const registerEventListeners = () => {
     handleDecrementInput();
   });
 };
+
 registerEventListeners();
 
 export default registerEventListeners;
