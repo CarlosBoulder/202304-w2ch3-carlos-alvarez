@@ -9,7 +9,7 @@ let incrementCounter = () => {
   }
 };
 
-let decrementCounter = () => {
+const decrementCounter = () => {
   if (counterNumber > 0) {
     counterNumber--;
   } else {
